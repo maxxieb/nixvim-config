@@ -22,7 +22,7 @@
     ./utils/wilder.nix
   ];
 
-  # colorschemes.dracula.enable = true;
+  #colorschemes.dracula.enable = true;
 
   diagnostics = { virtual_lines.only_current_line = true; };
 

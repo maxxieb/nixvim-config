@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/images/logo.png" width="200" />
+<img src="/images/logo.png" width="200" />
 </p>
 
 <h1 align="center">NixVim Configuration</h1>
@@ -30,11 +30,11 @@ inputs.nixvim.url = "github:mbrydak/nixvim-config"
 
 Then you can input this in your configuration.nix (be sure that you inherit inputs from your flake)
 ```
-  environment = {
-    systemPackages = with pkgs; [
-      inputs.nixvim.packages.${system}.default
-    ];
-  };
+environment = {
+systemPackages = with pkgs; [
+inputs.nixvim.packages.${system}.default
+];
+};
 ```
 
 ## Config and Plugins
@@ -59,7 +59,7 @@ Descriptions of all the config files/plugins used in this configuration.
 | telescope.nix | Extendable fuzzy finder over lists. |
 | toggleterm.nix | Management of multiple terminal windows. |
 | treesitter.nix | Syntax highlighting and indentation based on Tree-sitter. |
-| trouble.nix | Provides a pretty list for showing diagnostics, references, telescope results, quickfix and location lists | 
+| trouble.nix | Provides a pretty list for showing diagnostics, references, telescope results, quickfix and location lists |
 | which_key.nix | Popup display of keybindings. |
 
 ## Contributing
@@ -67,4 +67,4 @@ Descriptions of all the config files/plugins used in this configuration.
 If there is something that you feel that is not quite right, or you have ideas for improvement, please submit an issue or a PR.
 
 ## Acknowledgements
- * [NixVim](https://github.com/nix-community/nixvim)
+* [NixVim](https://github.com/nix-community/nixvim)

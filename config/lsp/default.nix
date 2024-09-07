@@ -12,6 +12,7 @@
         nixd.enable = true;
         prolog-ls.enable = true;
         ruff-lsp.enable = true;
+        terraformls.enable = true;
       };
       keymaps.lspBuf = {
         "gd" = "definition";
