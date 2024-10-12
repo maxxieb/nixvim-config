@@ -35,7 +35,12 @@
     # Global
     # Default mode is "" which means normal-visual-op
     {
-      key = "<C-n>";
+      mode = "n";
+      key = ";";
+      action = ":";
+    }
+    {
+      key = "<leader>n";
       action = "<CMD>NvimTreeToggle<CR>";
       options.desc = "Toggle NvimTree";
     }
@@ -187,7 +192,7 @@
     }
     {
       key = "<leader>dt";
-      action = "<CMD>TroubleToggle<CR>";
+      action = "<CMD>Trouble<CR>";
       options.desc = "Toggle trouble";
     }
 
