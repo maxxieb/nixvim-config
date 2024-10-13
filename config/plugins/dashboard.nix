@@ -1,0 +1,7 @@
+{
+  plugins = {
+    dashboard = {
+      enable = false;
+    };
+  };
+}

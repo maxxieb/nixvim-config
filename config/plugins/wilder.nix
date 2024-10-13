@@ -1,0 +1,7 @@
+{
+  plugins = {
+    wilder = {
+    enable = true;
+  };
+  };
+}
