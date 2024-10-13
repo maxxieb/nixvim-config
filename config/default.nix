@@ -3,9 +3,6 @@
   imports = [
     ./plugins
     ./keymaps.nix
+    ./opts.nix
   ];
-
-  globals = {
-  mapleader = " ";
-  };
 }
