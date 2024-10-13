@@ -1,6 +1,10 @@
 {
   keymaps = [
     {
+      action = ":";
+      key = ";";
+    }
+    {
       action = "<cmd>CHADopen<CR>";
       key = "<leader>e";
     }
