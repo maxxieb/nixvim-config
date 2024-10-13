@@ -1,4 +1,11 @@
 {
   # Import all your configuration modules here
-  imports = [ ./plugins ];
+  imports = [
+    ./plugins
+    ./keymaps.nix
+  ];
+
+  globals = {
+  mapleader = " ";
+  };
 }

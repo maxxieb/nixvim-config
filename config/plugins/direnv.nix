@@ -1,7 +1,7 @@
 {
   plugins = {
     direnv = {
-    enable = true;
-  };
+      enable = true;
+    };
   };
 }

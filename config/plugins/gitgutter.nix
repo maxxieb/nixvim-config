@@ -1,7 +1,7 @@
 {
   plugins = {
     gitgutter = {
-    enable = true;
-  };
+      enable = true;
+    };
   };
 }

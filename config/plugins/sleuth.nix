@@ -1,7 +1,7 @@
 {
   plugins = {
     sleuth = {
-    enable = true;
-  };
+      enable = true;
+    };
   };
 }

@@ -1,7 +1,7 @@
 {
   plugins = {
     trouble = {
-    enable = true;
-  };
+      enable = true;
+    };
   };
 }

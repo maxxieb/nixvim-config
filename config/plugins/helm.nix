@@ -1,7 +1,7 @@
 {
   plugins = {
     helm = {
-    enable = true;
-  };
+      enable = true;
+    };
   };
 }

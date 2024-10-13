@@ -1,7 +1,7 @@
 {
   plugins = {
     ollama = {
-    enable = true;
-  };
+      enable = true;
+    };
   };
 }

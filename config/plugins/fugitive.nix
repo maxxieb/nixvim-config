@@ -1,7 +1,7 @@
 {
   plugins = {
     fugitive = {
-    enable = true;
-  };
+      enable = true;
+    };
   };
 }

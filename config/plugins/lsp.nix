@@ -3,7 +3,7 @@
     lsp = {
       enable = true;
       servers = import ./lsp-servers.nix;
-  };
+    };
     lsp-format = {
       enable = true;
     };

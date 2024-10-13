@@ -1,7 +1,7 @@
 {
   plugins = {
     todo-comments = {
-    enable = true;
-  };
+      enable = true;
+    };
   };
 }

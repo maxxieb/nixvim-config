@@ -1,7 +1,7 @@
 {
   plugins = {
     edgy = {
-    enable = true;
-  };
+      enable = true;
+    };
   };
 }

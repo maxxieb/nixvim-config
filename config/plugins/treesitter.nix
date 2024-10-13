@@ -1,19 +1,19 @@
 {
   plugins = {
     treesitter = {
-    enable = true;
-  };
+      enable = true;
+    };
     treesitter-context = {
-    enable = true;
-  };
+      enable = true;
+    };
 
     treesitter-refactor = {
-    enable = true;
-  };
+      enable = true;
+    };
 
     treesitter-textobjects = {
-    enable = true;
-  };
+      enable = true;
+    };
     ts-comments = {
       enable = true;
     };
